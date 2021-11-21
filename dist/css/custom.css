@@ -1,0 +1,131 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+#header {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  transition: background ease-out 0.2s;
+  display: block;
+  z-index: 9999;
+}
+
+#header .container{
+  background-color: #0a99cd;
+}
+
+#header.active {
+  display: block;
+  visibility: hidden;
+  z-index: 9999;
+}
+
+#header .navbar-collapse {
+  width: auto;
+}
+
+#header .nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  color: rgb(255, 255, 255);
+  border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover {
+  border-bottom: solid 4px var(--secondary);
+  color: var(--secondary);
+}
+
+#inicio {
+  margin-top: 3.40rem;
+  padding-bottom: 0px;
+  color: #fff;
+}
+
+#inicio .container {
+  background-color: rgb(7, 50, 85);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 0;
+  padding-top: 1rem;
+}
+
+#sintomas .container {
+  background: url(../assets/imagens/BgLaçoAzul.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #fff;
+  text-align: justify;
+}
+
+#redes-Sociais .container {
+  background-color: rgb(7, 50, 85);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+#redes-Sociais .bordao {
+  background: url(../assets/imagens/unicredBigode.svg) center;
+  background-repeat: no-repeat;
+  background-size: 63rem;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+#redes-Sociais h2 {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#redes-Sociais ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#redes-Sociais ul li {
+  display: flex;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+#redes-Sociais ul li:first-child {
+  margin-left: 0;
+}
+
+#redes-Sociais ul li a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: all ease-out 0.2s;
+}
+
+#redes-Sociais ul li a:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgba(128, 128, 128, 0.174);
+}
+
+#redes-Sociais ul li img {
+  max-height: 20px;
+}
